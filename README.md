@@ -12,7 +12,7 @@ To help organizing the code, here is my working directory
 
 To train a model with 2-layer bidirectional LSTMs on both views:
 
-    2biLSTM.py <parameters>
+    python 2biLSTM.py <parameters> (e.g. python 2biLSTM.py -lr 0.0001 -obj 02 -m 0.4)
     available parameters include:
       -lr: learning rate, 0.001 by default (for LSTMs with more than 1 layer, 0.0001 is recommended)
       -obj: objectives, 0(obj0) by default, 02 = averaged sum of obj0 and obj2
