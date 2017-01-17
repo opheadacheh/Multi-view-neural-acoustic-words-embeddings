@@ -5,7 +5,7 @@ To train a model with 2-layer bidirectional LSTMs on both views:
 
     2biLSTM.py <parameters>
     available parameters include:
-      -lr: learning rate, 0.001 by default
+      -lr: learning rate, 0.001 by default (for LSTMs with more than 1 layer, 0.0001 is recommended)
       -obj: objectives, 0(obj0) by default, 02 = averaged sum of obj0 and obj2
       -hs: hidden size, 512 by default
       -m: margin, 0.5 by default
