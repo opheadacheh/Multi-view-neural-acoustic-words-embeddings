@@ -1,5 +1,14 @@
 # Multi-view-neural-acoustic-words-embeddings
-Prerequisites: Python --- 2.7.10, Tensorflow --- 0.9.0rc0, numpy, scipy
+# Prerequisites
+Python --- 2.7.10, Tensorflow --- 0.9.0rc0, numpy, scipy
+# How to use
+To help organizing the code, here is my working directory
+
+    /Multi-view_embedding
+        /Data
+        /Outputs
+        /Saved_Models
+        /Scripts
 
 To train a model with 2-layer bidirectional LSTMs on both views:
 
