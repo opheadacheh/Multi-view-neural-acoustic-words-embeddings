@@ -23,4 +23,9 @@ input1.npy is an array of values of train.npz
 
 input2.npy is an array of character embeddings, in which each element is a len * 26(num of english letters) matrix corresponding to a word.
 
-Note that input1.npy and input2.npy must be of same order, i.e. input1[0] is the acoustic feature of word input2[0].
+Some important notes:
+1. input1.npy and input2.npy must be of same order, i.e. input1[0] is the acoustic feature of word input2[0].
+
+2. For input2.npy(train set), any character that is not one of a-z should be discarded. e.g. it’s is same as its.
+
+3. In dev set, there is a word 7-eleven, which was transferred to seveneleven. In test set, 401k’s was treated as fourohoneks.
